@@ -28,7 +28,7 @@ func migrate(db *pg.DB) error {
 	}
 	_, _, err = collection.Run(db, "init")
 	if err != nil {
-		return errw
+		return err
 	}
 	oldVer, newVer, err := collection.Run(db, "up")
 	if err != nil {
