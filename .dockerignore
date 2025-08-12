@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Go
+vendor/
+*.test
+*.out
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+main
+server
+quotes-api
+
+# Documentation
+README.md
+docs/
+
+# CI/CD
+.github/
+
+# Environment files
+.env
+.env.*
+
+# Test coverage
+coverage.txt
+coverage.html
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+*.log

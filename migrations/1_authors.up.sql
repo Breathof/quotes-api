@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS author (
-    id   SERIAL PRIMARY KEY,
-    name VARCHAR NOT NULL
-);

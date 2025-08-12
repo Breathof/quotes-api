@@ -13,3 +13,38 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+# macOS
+.DS_Store
+
+# Go
+vendor/
+*.test
+*.out
+bin/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.*
+
+# Coverage
+coverage.txt
+coverage.html
+
+# Binaries
+main
+server
+quotes-api
+
+# Temporary files
+tmp/
+temp/
+
+# Logs
+*.log
